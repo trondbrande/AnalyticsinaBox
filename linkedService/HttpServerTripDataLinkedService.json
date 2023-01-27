@@ -1,0 +1,17 @@
+{
+	"name": "HttpServerTripDataLinkedService",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"type": "HttpServer",
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": [],
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/Azure/Test-Drive-Azure-Synapse-with-a-1-click-POC/main/tripDataAndFaresCSV/trip-data.csv",
+			"authenticationType": "Anonymous",
+			"enableServerCertificateValidation": true
+		}
+	}
+}

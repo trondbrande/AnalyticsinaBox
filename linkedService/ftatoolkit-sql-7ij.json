@@ -1,0 +1,23 @@
+{
+	"name": "ftatoolkit-sql-7ij",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ftatoolkit-keyvault-7ij",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ConnectionStrings--CnxDB"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		},
+		"description": "This link service connects to the sql server sampldb  database..."
+	}
+}

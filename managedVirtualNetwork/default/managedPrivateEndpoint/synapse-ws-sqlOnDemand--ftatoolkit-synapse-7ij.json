@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--ftatoolkit-synapse-7ij",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/49305370-8388-406a-a66b-f860e2c527ca/resourceGroups/P2-AnalyticsFundamentals-RG/providers/Microsoft.Synapse/workspaces/ftatoolkit-synapse-7ij",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"ftatoolkit-synapse-7ij-ondemand.12cbb8ca-a2a9-428f-9cb5-a181f9facf65.sql.azuresynapse.net"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "ftatoolkit-keyvault-7ij-with-params",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"parameters": {
+			"keyVaultName": {
+				"type": "string",
+				"defaultValue": "ftatoolkit-keyvault-7ij"
+			}
+		},
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "@{concat('https://',linkedService().keyVaultName,'.vault.azure.net/')}"
+		}
+	}
+}
